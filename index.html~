@@ -2,6 +2,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="screen.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="galleria/galleria-1.2.9.min.js"></script>
 </head>
 <body>
 <img src="background.jpg" id="bg"/>
@@ -24,12 +25,21 @@
 		</div>
 		<div class="close"></div>
 	</div>
+
 	 <div class="content" id="photos">
 		<div class="title">
-			<img src="images/photos.png"/>	
+		
 		</div>
 		<div class="close"></div>
 		
+			<img src="photos/1.jpg"/>
+ 			<img src="photos/2.jpg"/>	
+			<img src="photos/3.jpg"/>
+			<img src="photos/4.jpg"/>
+			<img src="photos/5.jpg"/>
+			<img src="photos/6.jpg"/>
+			<img src="photos/7.jpg"/>
+			<img src="photos/8.jpg"/>
 		 
 	</div>
 	 <div class="content" id="bio">
@@ -37,7 +47,7 @@
 			<img src="images/bio.png"/>	
 		</div>
 		<div class="close"></div>
-		
+		<p>Maffa Rico is the sound of a funky stewing of two years of writing and jamming between three original members, Brad Giroux (guitar/vocals), Patrick Berthiaume (bass/vocals/trumpet), Craig Lietch (guitar) and Eren Tanyeri (drums/guitar).  This Madison/Milwaukee based quartet has funky roots that extend to many genres including rock, reggae, hip hop, metal, latin, jam, jazz and have influenced many songs that have been produced on their upcoming self titled album.  Many of the songs on the upcoming album include depictions of underwater scenes and sounds that have inspired our creativity in exploring the depths of the sea of musical depiction. The band has taken great mentorship from teachers like Rob Junceau III of Mighty Shortbus (bass), Stefan Treusdell of Natty Nation/ Weapons of Mass Defunktion (guitar), Keith Leinert (jazz drummer, The Big Payback) and many other influences such as the Red Hot Chili Peppers, Incubus, Parliament, Sly and the Family Stone, Pearl Jam, Phish, Soundgarden, The Meters, The Allman Brothers, Sublime, Santana, Pink Floyd, Led Zeppelin, Jimi Hendrix, John Butler Trio, Bob Marley, and others that have blended there way to create a unique funky Midwest sound that will make you groove. Spontaneous funk jams and dance music are the cornerstones of this band and can only truly be experienced in a live setting.  The new demo can be listened to and downloaded from our youtube channel BTRFunk or we can be reached on facebook, myspace, twitter or soundcloud. The band is looking to play as much as possible live for anything from bars, festivals, parties to weddings and will play anywhere in the Wisconsin/Minnesota/Illinois/Iowa/Michigan vicinity. They are an act that you need to see with covers and the debut album Maffa Rico being showcased!  They provide all of their own equipment except for lighting and can provide a PA system if necessary. For contact information email Alex Horner at BeneaththeReef@608bars.com or call at (608)445-5599, or (608)354-6432 (Brad) bgiroux@wisc.edu. </p>
 		 
 	</div>
 	<div id="nav_container">
@@ -48,14 +58,34 @@
 		</div>
 		<div id="nav">
 		<ul>
-			<li class="active" id="nav_home"><a href="#"><img src="images/home.png"/></a></li>
-			<li id="nav_photos"><a href="#"><img src="images/photos.png"/></a></li>
-			<li id="nav_store"><a href="#"><img src="images/store.png"/></a></li>
-			<li id="nav_bio"><a href="#"><img src="images/bio.png"/></a></li>
+			<li class="button active" id="nav_home"><a href="#"><img src="images/home.png"/></a></li>
+			<li class="button" id="nav_photos"><a href="#"><img src="images/photos.png"/></a></li>
+			<li class="button" id="nav_store"><a href="#"><img src="images/store.png"/></a></li>
+			<li class="button" id="nav_bio"><a href="#"><img src="images/bio.png"/></a></li>
 		</ul>
 
 		</div>
 	</div>
+<style>
+
+
+  #bio {
+   color: #FFF;
+  }
+ 
+  #photos{
+    height: 600px;
+    width: 1000px;
+
+  } 	
+  
+
+</style>
+<script>
+ Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+ Galleria.run('#photos');
+</script>
+
 <script src="inline.js">
 
 
