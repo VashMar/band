@@ -28,19 +28,29 @@ a {
 	line-height:20px;
 }
 #home{
-	width:800px;
-	min-height:400px;
+	width:1200px;
+	min-height:750px;
 }
 .home_container{
-	position:relative;
+	position: relative;
 	width:260px;
-	float:left;
 	margin:10px;
 	margin-top:24px;
 	padding:8px;
 	border:1px solid #111;
 	background-color: rgba(0, 0, 0, 0.3);
 	color:white;
+}
+
+.home_container ul{
+  	
+  list-style-type: none;
+
+}
+
+.home_container li{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .home_container span{
@@ -50,7 +60,33 @@ a {
 	position:absolute;
 	top:-17px;
 	left:3px;
+ 	
 }
+
+#music{
+ float:right;
+  width: 500px;
+  margin-top: -150px;
+  margin-right: 50px;
+
+}
+
+#social {
+  
+
+
+}
+
+
+#events{
+ margin-left: 300px;
+ margin-top: -640px;
+}
+
+
+
+
+
 #photos, #bio{
 	width:800px;
 }

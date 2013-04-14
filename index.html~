@@ -1,8 +1,11 @@
 <html>
 <head>
+<title>Maffa Rico | Official Site</title>
 <link rel="stylesheet" type="text/css" href="screen.css">
+<link rel="stylesheet" type="text/css" href="">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="galleria/galleria-1.2.9.min.js"></script>
+<script src="galleria/themes/classic/galleria.classic.min.js"></script>
 </head>
 <body>
 <img src="background.jpg" id="bg"/>
@@ -12,18 +15,55 @@
 			<img src="images/home.png"/>	
 		</div>
 		<div class="close"></div>
-
-		<div class="home_container">
-		<span>Title</span>
-		tittykaka
+	
+	        <div class="home_container" id="social">
+		<span>Social Links</span>
+	        
+               <ul>
+                 <li><a href="https://twitter.com/MaffaRico"><img height= "90" width="90" src="images/twittr.png"> </a></li>
+		 <li><a href="https://www.facebook.com/MaffaRico"><img height= "90" width="90" src="images/fb.png"></a></li>
+		 <li><a href="http://www.youtube.com/user/BTRFunk"><img height= "90" width="90" src="images/yt.png"></a></li>
+		 <li><a href="https://soundcloud.com/maffa-rico"><img height= "90" width="90" src="images/sc.png"></a></li>
+		 <li><a href="http://maffarico.bandcamp.com/"><img height= "90" width="90" src="images/bc.png"></a></li>
+	       <ul>
 
 		</div>
+
+		<div class="home_container" id="events">
+		<span>Upcoming Events</span>
+
+		<ul>
+		  <li>Congress Theatre- Chicago, IL: Sunday April 14th</li> 
+                  <li>All Campus Party- Madison, WI: Monday April 22nd, 3:30pm</li>
+		</ul>
+
+		</div>
+
+   	
+		
+		<div class="home_container" id="Music">
+		<span>Music</span>
+	<ul>
+		<li><iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F82484754"></iframe></li>
+
+	<li><iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F37363404"></iframe></li>
+
+	<li><iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F37363285"></iframe></li>
+
+	<li><iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F33754749"></iframe></li>
+
+      </ul>
+		</div>
+
+
+	
 	</div>
 	<div class="content" id="store">
 		<div class="title">
 			<img src="images/store.png"/>	
 		</div>
 		<div class="close"></div>
+		<h2>Store coming soon...</h2>
 	</div>
 
 	 <div class="content" id="photos">
@@ -67,10 +107,7 @@
 
 		</div>
 	</div>
-<style>
 
- 
-</style>
 <script>
  Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
  Galleria.run('#galleria');
