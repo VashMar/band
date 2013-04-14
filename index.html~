@@ -2,7 +2,9 @@
 <head>
 <title>Maffa Rico | Official Site</title>
 <link rel="stylesheet" type="text/css" href="screen.css">
-
+<link rel="icon" 
+      type="image/png" 
+      href="favicon.png">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="galleria/galleria-1.2.9.min.js"></script>
 <script src="galleria/themes/classic/galleria.classic.min.js"></script>

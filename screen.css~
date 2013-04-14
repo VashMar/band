@@ -183,5 +183,9 @@ padding:14px 20px;
 .galleria-thumbnails{
 margin:auto;
 }
-
+  .galleria-errors
+  {
+      visibility:hidden;
+      display:none;
+  }
 
