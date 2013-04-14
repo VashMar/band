@@ -28,10 +28,10 @@
 
 	 <div class="content" id="photos">
 		<div class="title">
-		
+			<img src="images/photos.png"/>	
 		</div>
 		<div class="close"></div>
-		
+		<div id="galleria" style="height:500px;">
 			<img src="photos/1.jpg"/>
  			<img src="photos/2.jpg"/>	
 			<img src="photos/3.jpg"/>
@@ -40,6 +40,7 @@
 			<img src="photos/6.jpg"/>
 			<img src="photos/7.jpg"/>
 			<img src="photos/8.jpg"/>
+		</div>
 		 
 	</div>
 	 <div class="content" id="bio">
@@ -68,22 +69,11 @@
 	</div>
 <style>
 
-
-  #bio {
-   color: #FFF;
-  }
  
-  #photos{
-    height: 600px;
-    width: 1000px;
-
-  } 	
-  
-
 </style>
 <script>
  Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
- Galleria.run('#photos');
+ Galleria.run('#galleria');
 </script>
 
 <script src="inline.js">

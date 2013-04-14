@@ -20,7 +20,12 @@ a {
 	margin:auto;
 }
 #main{
+	color:white;
 	
+}
+#main p{
+	font-size:14px;
+	line-height:20px;
 }
 #home{
 	width:800px;
@@ -48,11 +53,17 @@ a {
 }
 #photos, #bio{
 	width:800px;
-	min-height:500px;
+}
+#bio p{
+padding:14px 20px;
 }
 #store{
 	width:800px;
 	min-height:400px;
+}
+#store h2{
+	text-align:center;
+	padding-top:170px;
 }
 .content{
 	margin:36px auto 10px auto;
@@ -91,6 +102,10 @@ a {
 .active{
 	background:#fc4700;
 }
+#bio .title{
+	margin-bottom:-54px;
+	margin-right:-28px;
+}
 .title{
 	position:relative;
 	top:-50px;
@@ -99,6 +114,7 @@ a {
 	height:153px;
 	background-image:url(images/title.png);
 	float:left;
+	z-index:4;
 }
 .title img{
 	margin:50px 0 0 24px;
@@ -112,14 +128,27 @@ a {
 	float:right;
 	background-image:url(images/close.png);
 	cursor:pointer;
+	z-index:4;
 }
 #bg {
   position: fixed; 
   bottom: 0; 
   left: 0; 
 	
-  /* Preserve aspet ratio */
+  /* Preserve aspect ratio */
   min-width: 100%;
   min-height: 100%;
   z-index:-1;
 }
+
+.galleria-container {
+    position: relative;
+    left: -277px;
+}
+.galleria-container {
+    position: relative;
+    overflow: hidden;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2);
+}
+
+
