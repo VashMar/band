@@ -63,7 +63,7 @@ padding:14px 20px;
 }
 #store h2{
 	text-align:center;
-	padding-top:200px;
+	padding-top:170px;
 }
 .content{
 	margin:36px auto 10px auto;
