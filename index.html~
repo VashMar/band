@@ -2,10 +2,11 @@
 <head>
 <title>Maffa Rico | Official Site</title>
 <link rel="stylesheet" type="text/css" href="screen.css">
-<link rel="stylesheet" type="text/css" href="">
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="galleria/galleria-1.2.9.min.js"></script>
 <script src="galleria/themes/classic/galleria.classic.min.js"></script>
+<link rel="stylesheet" type="text/css" href="galleria/themes/classic/galleria.classic.css">
 </head>
 <body>
 <img src="background.jpg" id="bg"/>
@@ -16,31 +17,7 @@
 		</div>
 		<div class="close"></div>
 	
-	        <div class="home_container" id="social">
-		<span>Social Links</span>
-	        
-               <ul>
-                 <li><a href="https://twitter.com/MaffaRico"><img height= "90" width="90" src="images/twittr.png"> </a></li>
-		 <li><a href="https://www.facebook.com/MaffaRico"><img height= "90" width="90" src="images/fb.png"></a></li>
-		 <li><a href="http://www.youtube.com/user/BTRFunk"><img height= "90" width="90" src="images/yt.png"></a></li>
-		 <li><a href="https://soundcloud.com/maffa-rico"><img height= "90" width="90" src="images/sc.png"></a></li>
-		 <li><a href="http://maffarico.bandcamp.com/"><img height= "90" width="90" src="images/bc.png"></a></li>
-	       <ul>
 
-		</div>
-
-		<div class="home_container" id="events">
-		<span>Upcoming Events</span>
-
-		<ul>
-		  <li>Congress Theatre- Chicago, IL: Sunday April 14th</li> 
-                  <li>All Campus Party- Madison, WI: Monday April 22nd, 3:30pm</li>
-		</ul>
-
-		</div>
-
-   	
-		
 		<div class="home_container" id="Music">
 		<span>Music</span>
 	<ul>
@@ -54,6 +31,34 @@
 
       </ul>
 		</div>
+<div style="float:right">
+		<div class="home_container" id="events">
+		<span>Upcoming Events</span>
+
+		<ul>
+		  <li>Congress Theatre- Chicago, IL: Sunday April 14th</li> 
+                  <li>All Campus Party- Madison, WI: Monday April 22nd, 3:30pm</li>
+		</ul>
+
+		</div>
+	
+	        <div class="home_container" id="social">
+		<span>Social Links</span>
+	        
+               <ul>
+                 <li><a href="https://twitter.com/MaffaRico"><imgsrc="images/twittr.png"> </a></li>
+		 <li><a href="https://www.facebook.com/MaffaRico"><img src="images/fb.png"></a></li>
+		 <li><a href="http://www.youtube.com/user/BTRFunk"><img src="images/yt.png"></a></li>
+		 <li><a href="https://soundcloud.com/maffa-rico"><img src="images/sc.png"></a></li>
+		 <li><a href="http://maffarico.bandcamp.com/"><img src="images/bc.png"></a></li>
+	       <ul>
+
+		</div>
+</div>
+
+   	
+		
+		
 
 
 	
@@ -88,7 +93,7 @@
 			<img src="images/bio.png"/>	
 		</div>
 		<div class="close"></div>
-		<p>Maffa Rico is the sound of a funky stewing of two years of writing and jamming between three original members, Brad Giroux (guitar/vocals), Patrick Berthiaume (bass/vocals/trumpet), Craig Lietch (guitar) and Eren Tanyeri (drums/guitar).  This Madison/Milwaukee based quartet has funky roots that extend to many genres including rock, reggae, hip hop, metal, latin, jam, jazz and have influenced many songs that have been produced on their upcoming self titled album.  Many of the songs on the upcoming album include depictions of underwater scenes and sounds that have inspired our creativity in exploring the depths of the sea of musical depiction. The band has taken great mentorship from teachers like Rob Junceau III of Mighty Shortbus (bass), Stefan Treusdell of Natty Nation/ Weapons of Mass Defunktion (guitar), Keith Leinert (jazz drummer, The Big Payback) and many other influences such as the Red Hot Chili Peppers, Incubus, Parliament, Sly and the Family Stone, Pearl Jam, Phish, Soundgarden, The Meters, The Allman Brothers, Sublime, Santana, Pink Floyd, Led Zeppelin, Jimi Hendrix, John Butler Trio, Bob Marley, and others that have blended there way to create a unique funky Midwest sound that will make you groove. Spontaneous funk jams and dance music are the cornerstones of this band and can only truly be experienced in a live setting.  The new demo can be listened to and downloaded from our youtube channel BTRFunk or we can be reached on facebook, myspace, twitter or soundcloud. The band is looking to play as much as possible live for anything from bars, festivals, parties to weddings and will play anywhere in the Wisconsin/Minnesota/Illinois/Iowa/Michigan vicinity. They are an act that you need to see with covers and the debut album Maffa Rico being showcased!  They provide all of their own equipment except for lighting and can provide a PA system if necessary. For contact information email Alex Horner at BeneaththeReef@608bars.com or call at (608)445-5599, or (608)354-6432 (Brad) bgiroux@wisc.edu. </p>
+		<p>Maffa Rico is the sound of a funky stewing of two years of writing and jamming between three original members, Brad Giroux (guitar/vocals), Patrick Berthiaume (bass/vocals/trumpet), Craig Lietch (guitar) and Eren Tanyeri (drums/guitar).  This Madison/Milwaukee based quartet has funky roots that extend to many genres including rock, reggae, hip hop, metal, latin, jam, jazz and have influenced many songs that have been produced on their upcoming self titled album.  Many of the songs on the upcoming album include depictions of underwater scenes and sounds that have inspired our creativity in exploring the depths of the sea of musical depiction. </p><p>The band has taken great mentorship from teachers like Rob Junceau III of Mighty Shortbus (bass), Stefan Treusdell of Natty Nation/ Weapons of Mass Defunktion (guitar), Keith Leinert (jazz drummer, The Big Payback) and many other influences such as the Red Hot Chili Peppers, Incubus, Parliament, Sly and the Family Stone, Pearl Jam, Phish, Soundgarden, The Meters, The Allman Brothers, Sublime, Santana, Pink Floyd, Led Zeppelin, Jimi Hendrix, John Butler Trio, Bob Marley, and others that have blended there way to create a unique funky Midwest sound that will make you groove. Spontaneous funk jams and dance music are the cornerstones of this band and can only truly be experienced in a live setting.  </p><p>The new demo can be listened to and downloaded from our youtube channel BTRFunk or we can be reached on facebook, myspace, twitter or soundcloud. The band is looking to play as much as possible live for anything from bars, festivals, parties to weddings and will play anywhere in the Wisconsin/Minnesota/Illinois/Iowa/Michigan vicinity. They are an act that you need to see with covers and the debut album Maffa Rico being showcased!  They provide all of their own equipment except for lighting and can provide a PA system if necessary. For contact information email Alex Horner at BeneaththeReef@608bars.com or call at (608)445-5599, or (608)354-6432 (Brad) bgiroux@wisc.edu. </p>
 		 
 	</div>
 	<div id="nav_container">
@@ -113,9 +118,6 @@
  Galleria.run('#galleria');
 </script>
 
-<script src="inline.js">
-
-
-</script>
+<script src="inline.js"></script>
 </body>
 </html>
