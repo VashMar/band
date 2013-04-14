@@ -215,7 +215,3 @@
     background-image: url(classic-map.png);
     background-repeat: no-repeat;
 }
-
-.galleria-container {
-    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2);
-}

@@ -33,7 +33,7 @@ a {
 }
 .home_container{
 	position: relative;
-	width:260px;
+	width:268px;
 	margin:10px;
 	margin-top:24px;
 	padding:8px;
@@ -80,6 +80,8 @@ border:none;
 
 #photos, #bio{
 	width:800px;
+}
+#photos .title{
 }
 #bio p{
 padding:14px 20px;
@@ -171,18 +173,7 @@ padding:14px 20px;
   z-index:-1;
 }
 
-.galleria-container {
-    position: relative;
-    left: -277px;
-}
-.galleria-container {
-    position: relative;
-    overflow: hidden;
-    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2);
-}
-.galleria-thumbnails{
-margin:auto;
-}
+
   .galleria-errors
   {
       visibility:hidden;
